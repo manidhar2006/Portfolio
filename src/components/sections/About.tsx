@@ -11,11 +11,11 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-foreground">
-              Hello! I'm a passionate Full Stack Developer
+              Hello! I'm a passionate Software Developer
             </h3>
             
             <p className="text-muted-foreground leading-relaxed text-lg">
-              With over 5 years of experience in web development, I specialize in creating 
+              With over 2 years of experience in web development, I specialize in creating 
               beautiful, functional, and user-centered digital experiences. I'm passionate 
               about bringing ideas to life through clean, efficient code and intuitive design.
             </p>
