@@ -13,7 +13,6 @@ const Navbar = ({ activeSection }: NavbarProps) => {
     { id: 'about', label: 'About' },
     { id: 'resume', label: 'Resume' },
     { id: 'projects', label: 'Projects' },
-    { id: 'blogs', label: 'Blogs' },
     { id: 'contact', label: 'Contact' },
   ];
 

@@ -1,4 +1,4 @@
-
+import Manidhar from '../../assets/Manidhar.jpeg';
 const About = () => {
   return (
     <section id="about" className="min-h-screen flex items-center">
@@ -29,12 +29,12 @@ const About = () => {
             <div className="grid grid-cols-2 gap-6 pt-6">
               <div className="p-6 bg-card border border-border rounded-lg hover:shadow-lg transition-shadow">
                 <h4 className="text-xl font-semibold text-foreground mb-2">Frontend</h4>
-                <p className="text-muted-foreground">React, TypeScript, Tailwind CSS, Next.js</p>
+                <p className="text-muted-foreground">HTML, CSS, Javascript,React, React-native, TypeScript, Next.js</p>
               </div>
               
               <div className="p-6 bg-card border border-border rounded-lg hover:shadow-lg transition-shadow">
                 <h4 className="text-xl font-semibold text-foreground mb-2">Backend</h4>
-                <p className="text-muted-foreground">Node.js, Python, PostgreSQL, MongoDB</p>
+                <p className="text-muted-foreground">Flask, Node.js, Express.js, Python, PostgreSQL, MongoDB</p>
               </div>
             </div>
           </div>
@@ -42,8 +42,8 @@ const About = () => {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src={`https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=700&fit=crop`}
-                alt="Working"
+                src={Manidhar}
+                alt="Manidhar"
                 className="rounded-lg shadow-2xl"
               />
             </div>

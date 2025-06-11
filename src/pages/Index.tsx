@@ -5,7 +5,6 @@ import Sidebar from '@/components/Sidebar';
 import About from '@/components/sections/About';
 import Resume from '@/components/sections/Resume';
 import Projects from '@/components/sections/Projects';
-import Blogs from '@/components/sections/Blogs';
 import Contact from '@/components/sections/Contact';
 
 const Index = () => {
@@ -44,7 +43,6 @@ const Index = () => {
           <About />
           <Resume />
           <Projects />
-          <Blogs />
           <Contact />
         </div>
       </main>

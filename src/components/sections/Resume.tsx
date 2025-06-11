@@ -2,47 +2,45 @@
 const Resume = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "Tech Innovations Inc.",
-      period: "2022 - Present",
-      description: "Led development of multiple web applications using React, Node.js, and cloud technologies. Mentored junior developers and improved team productivity by 40%."
+      title: "Undergraduate Researcher",
+      company: "SERC Lab, IIIT Hyderabad",
+      period: "Jun 2025 - Present",
+      description: "Conducting research on user-centered design and usability testing for IoT applications."
     },
     {
       title: "Full Stack Developer",
-      company: "Digital Solutions Ltd.",
-      period: "2020 - 2022",
-      description: "Developed and maintained e-commerce platforms serving 100k+ users. Implemented CI/CD pipelines and reduced deployment time by 60%."
+      company: "ICanCare",
+      period: "Jan 2025 - May 2025",
+      description: "Developed a full-stack web application using React amd Node.js, for ICanCare, a healthcare startup. Implemented features for Volunterer Activity Management With a Approval Workflow"
     },
-    {
-      title: "Frontend Developer",
-      company: "Creative Agency",
-      period: "2019 - 2020",
-      description: "Created responsive web interfaces and collaborated with UX/UI designers to deliver pixel-perfect implementations."
-    }
   ];
 
   const education = [
     {
-      degree: "Master of Computer Science",
-      school: "Stanford University",
-      period: "2017 - 2019",
-      description: "Specialized in Software Engineering and Machine Learning"
+      degree: "BTech in Computer Science",
+      school: "International Institute of Information Technology, Hyderabad",
+      period: "2023 - present",
     },
     {
-      degree: "Bachelor of Computer Science",
-      school: "UC Berkeley",
-      period: "2013 - 2017",
-      description: "Graduated Magna Cum Laude with focus on Web Technologies"
-    }
+      degree: "Higher Secondary Education",
+      school: "Sri Chaitanya Junior Kalasala(Pratibha Bhavan), Hyderabad",
+      period: "2021 - 2023",
+    },
   ];
 
   const skills = [
-    { name: "JavaScript/TypeScript", level: 95 },
-    { name: "React/Next.js", level: 90 },
-    { name: "Node.js/Express", level: 85 },
-    { name: "Python/Django", level: 80 },
-    { name: "AWS/Cloud", level: 75 },
-    { name: "PostgreSQL/MongoDB", level: 85 }
+    { name: "HTML" },
+    { name: "CSS" },
+    { name: "JavaScript" },
+    { name: "TypeScript" },
+    { name: "React" },
+    { name: "Next.js" },
+    { name: "React Native" },
+    { name: "Node.js" },
+    { name: "Flask" },
+    { name: "Express" },
+    { name: "MongoDB" },
+    { name: "PostgreSQL" }
   ];
 
   return (
@@ -83,7 +81,6 @@ const Resume = () => {
                     <h4 className="text-xl font-semibold text-foreground">{edu.degree}</h4>
                     <p className="text-primary font-medium">{edu.school}</p>
                     <p className="text-sm text-muted-foreground mb-3">{edu.period}</p>
-                    <p className="text-muted-foreground leading-relaxed">{edu.description}</p>
                   </div>
                 </div>
               ))}
@@ -91,20 +88,14 @@ const Resume = () => {
 
             {/* Skills */}
             <h3 className="text-2xl font-semibold text-foreground mb-8">Skills</h3>
-            <div className="space-y-4">
+            <div className="flex flex-wrap gap-3">
               {skills.map((skill, index) => (
-                <div key={index} className="space-y-2">
-                  <div className="flex justify-between">
-                    <span className="font-medium text-foreground">{skill.name}</span>
-                    <span className="text-muted-foreground">{skill.level}%</span>
-                  </div>
-                  <div className="w-full bg-accent rounded-full h-2">
-                    <div 
-                      className="bg-primary h-2 rounded-full transition-all duration-1000"
-                      style={{ width: `${skill.level}%` }}
-                    ></div>
-                  </div>
-                </div>
+                <span 
+                  key={index} 
+                  className="bg-card text-foreground px-4 py-2 rounded-md border border-border hover:bg-black hover:text-white hover:scale-105 transition-all duration-300"
+                >
+                  {skill.name}
+                </span>
               ))}
             </div>
           </div>

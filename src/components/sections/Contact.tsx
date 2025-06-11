@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Email</h4>
-                  <p className="text-muted-foreground">john.doe@example.com</p>
+                  <p className="text-muted-foreground">manidharsukasi@gmail.com</p>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Phone</h4>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">+91 93986 84340</p>
                 </div>
               </div>
 
@@ -72,18 +72,10 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground">Location</h4>
-                  <p className="text-muted-foreground">New York, USA</p>
+                  <p className="text-muted-foreground">Hyderabad, India</p>
                 </div>
               </div>
-            </div>
-
-            <div className="pt-8">
-              <img
-                src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=500&h=300&fit=crop"
-                alt="Contact"
-                className="w-full h-64 object-cover rounded-lg shadow-lg"
-              />
-            </div>
+            </div>  
           </div>
 
           {/* Contact Form */}
